@@ -113,6 +113,15 @@ p.summary {
     background-color: #0066cc;
     color: white;
 }
+.articles {
+    display: flex;
+    flex-direction: column; /* Stack articles vertically */
+}
+
+article {
+    margin-bottom: 20px; /* Space between articles */
+}
+
 
 /* Footer */
 footer p {
