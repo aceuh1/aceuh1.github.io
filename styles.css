@@ -74,7 +74,7 @@ section {
 }
 
 
-article h2 {
+article a, h2 {
     
     text-decoration: none;
     transition: text decoration 0.3 ease;
@@ -82,7 +82,7 @@ article h2 {
 
 }
 
-article h2:hover {
+article a, h2:hover {
   
     text-decoration: underline;
     text-decoration-color: black;
