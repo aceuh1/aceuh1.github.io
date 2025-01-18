@@ -120,6 +120,8 @@ p.summary {
 
 article {
     margin-bottom: 20px; /* Space between articles */
+    padding: 1.5em;
+    box-shadow: 0 2px 4px black;
 }
 
 
