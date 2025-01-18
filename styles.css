@@ -74,14 +74,14 @@ section {
 }
 
 
-section h2 {
+article h2 {
     
     text-decoration: none;
     transition: text decoration 0.3 ease;
 
 }
 
-section h2:hover {
+article h2:hover {
   
     text-decoration: underline;
     text-decoration-color: black;
