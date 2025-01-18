@@ -139,40 +139,40 @@ p.summary {
 }
 
 article {
-    margin-bottom: 20px; /* Space between articles */
+    margin-bottom: 20px; 
     
 }
 
 
 footer {
-  background-color: #333; /* Dark background for contrast */
-  color: #fff; /* White text for readability */
-  text-align: center; /* Center align all text */
-  padding: 20px; /* Add space around the content */
-  font-size: 14px; /* Standard footer font size */
-  line-height: 1.6; /* Improve readability */
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 20px; 
+  font-size: 14px; 
+  line-height: 1.6; 
 }
 
 footer a {
-  color: #007bff; /* Link color */
-  text-decoration: none; /* Remove underline */
-  margin: 0 5px; /* Add spacing between links */
-  transition: color 0.3s ease; /* Smooth hover effect */
+  color: #007bff; 
+  text-decoration: none; 
+  margin: 0 5px; 
+  transition: color 0.3s ease;
 }
 
 footer a:hover {
-  color: #00bfff; /* Lighter blue on hover */
+  color: #00bfff; 
 }
 
 footer h2 {
   color: White;
-  font-size: 18px; /* Slightly larger font for title */
-  margin-bottom: 10px; /* Space below the title */
+  font-size: 18px; 
+  margin-bottom: 10px; 
 }
 
 footer p {
   
-  margin: 10px 0; /* Space between paragraphs */
+  margin: 10px 0; 
 }
 
 
