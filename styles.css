@@ -144,10 +144,35 @@ article {
 }
 
 
-/* Footer */
+footer {
+  background-color: #333; /* Dark background for contrast */
+  color: #fff; /* White text for readability */
+  text-align: center; /* Center align all text */
+  padding: 20px; /* Add space around the content */
+  font-size: 14px; /* Standard footer font size */
+  line-height: 1.6; /* Improve readability */
+}
+
+footer a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin: 0 5px; /* Add spacing between links */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+footer a:hover {
+  color: #00bfff; /* Lighter blue on hover */
+}
+
+footer h2 {
+  color: White;
+  font-size: 18px; /* Slightly larger font for title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
 footer p {
-    font-size: 0.8rem;
-    color: #555;
+  
+  margin: 10px 0; /* Space between paragraphs */
 }
 
 
