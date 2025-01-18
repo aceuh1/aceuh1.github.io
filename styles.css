@@ -73,6 +73,22 @@ section {
     box-shadow: 0 2px 4px black;
 }
 
+
+section h2 {
+    
+    text-decoration: none;
+    transition: text decoration 0.3 ease;
+
+}
+
+section h2:hover {
+  
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+  
+}
+
 img {
     max-width: 100%;  
     height: auto;     
