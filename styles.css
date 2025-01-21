@@ -1,4 +1,3 @@
-
 body, h1, h2, p, a {
     margin: 0;
     padding: 0;
@@ -13,29 +12,49 @@ body {
 
 
 header {
+
+  background: #f5f5f5;
     text-align: center;
-    margin-bottom: 10px;
+      position: sticky;
+            top: 0;
+            z-index: 1000;
+          
+                 max-width: 1250px; 
+            margin: 0 auto;
+          margin-bottom: 0;
+    
+            
+           
+ 
 }
+ 
+
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    
 }
 header p {
-    font-size: 1rem;
+    font-size:1rem;
     color: #555;
 }
 
 
 nav {
-    
-    padding: 20px 0;
-    margin: 10px 0;
+  background: #f5f5f5;
+      position: sticky;
+            top: 4.5%;
+          z-index: 999;
+    padding: 10px 0;
+    margin: 0px auto;
+    max-width: 1250px;
+    margin-bottom: 10px;
+    margin-top:0px;
 }
 
 .nav-list {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .nav-list li {
@@ -45,7 +64,7 @@ nav {
 .nav-list a {
     color: black;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .7 rem;
     padding: 5px 10px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -61,9 +80,11 @@ nav {
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+ 
+    gap: 15px;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 section {
@@ -72,8 +93,10 @@ section {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px black;
+    max-height: 450px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-
 article a {
     text-decoration: none;
 
@@ -91,6 +114,16 @@ article h2:hover {
     text-decoration: underline;
     text-decoration-color: black;
     text-decoration-thickness: 2px;
+  
+}
+aside{
+ 
+  
+  
+    width: 80%;
+    max-height: 50%;
+   
+    
   
 }
 
@@ -134,14 +167,12 @@ p.summary {
     background-color: #0066cc;
     color: white;
 }
-.articles {
-    display: flex;
-    flex-direction: column; /* Stack articles vertically */
-}
+
 
 article {
-    margin-bottom: 20px; 
-    
+    margin-bottom: 10px; 
+     display: flex;
+    flex-direction: column;
 }
 
 footer {
