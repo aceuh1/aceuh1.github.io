@@ -41,7 +41,7 @@ header a {
   
 }
 .span{
-  width: 103%;
+  width: 100%;
   grid-column: span 2;
   justify-content: center;
   flex-direction: column; 
