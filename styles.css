@@ -1,9 +1,10 @@
 body, h1, h2, h3, p, a {
     margin: 0;
     padding: 0;
+    
 }
 body {
-    font-family: 'Georgia', serif;
+    font-family: 'Times New Roman', serif;
     line-height: 1.6;
     color: #333;
     background-color: #f5f5f5;
@@ -31,7 +32,7 @@ header {
 
 header h1 a {
     font-size: 2rem;
-    
+    font-family: Times New Roman;
     
 }
 header a {
@@ -39,6 +40,47 @@ header a {
     color: black;
   
 }
+.span{
+  width: 110%;
+  grid-column: span 2;
+  justify-content: center;
+  flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 0px; 
+ 
+}
+.span article{
+  max-width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.media-container {
+    display: flex; 
+    gap: 20px; 
+    width: 100%; 
+    justify-content: flex-start; 
+}
+
+
+.media-container img {
+    width: 100%; 
+    height: auto; 
+    margin-left:0px;
+}
+
+
+.media-container aside {
+    width: 25%; 
+    flex-shrink: 0; 
+}
+.span article a img{
+  
+  max-width: 100%;
+  
+  height: auto;
+}
+
 .read{
   float: left;
  text-decoration: none;
@@ -107,7 +149,7 @@ main {
 }
 
 section {
-    background: white;
+    background: #fefefe;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -115,6 +157,11 @@ section {
     max-height: 450px;
     margin-bottom: 0;
     margin-top: 0;
+}
+aside section{
+ width: 100%;
+  float: right;
+  margin-right: -70px;
 }
 aside section img{
   width: 100%;
@@ -128,12 +175,13 @@ aside .second{
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px black;
-    max-height: 450px;
+    height: 100%;
     margin-bottom: 0;
     margin-top: 0;
 }
 aside .second article h2{
   text-decoration: none;
+  margin: 0px 0px;
 }
 
 article a {
@@ -155,11 +203,13 @@ article h2:hover {
     text-decoration-thickness: 2px;
   
 }
-article h3 {
+article h3 a {
     
     text-decoration: none;
     transition: text decoration 0.3 ease;
-    padding-bottom: 20px;
+    color: black;
+    font-size: 1.2rem;
+    
 
 }
 
@@ -210,6 +260,7 @@ p.author {
     font-size: 0.9rem;
     color: #777;
     margin-bottom: 10px;
+    
 }
 
 p.summary {
@@ -226,11 +277,13 @@ p.summary {
     padding: 5px 10px;
     border-radius: 3px;
     transition: background-color 0.3s, color 0.3s;
+    margin 10px ;
 }
 
 .read-more:hover, .read-more:focus {
     background-color: #0066cc;
     color: white;
+    
 }
 
 
