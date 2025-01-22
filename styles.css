@@ -169,17 +169,24 @@ aside section img{
   object-fit: contain;
   object-position: center;
 }
-aside .second{
+ .second{
      background: white;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px black;
-    height: 100%;
+    display: flex;
     margin-bottom: 0;
     margin-top: 0;
+    grid-row: span 2;
+    min-height: 950px;
 }
-aside .second article h2{
+.second img{
+  margin-left: 25px;
+  height: auto;
+  max-width: 85%;
+}
+ .second article h2{
   text-decoration: none;
   margin: 0px 0px;
 }
@@ -208,7 +215,7 @@ article h3 a {
     text-decoration: none;
     transition: text decoration 0.3 ease;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
     
 
 }
