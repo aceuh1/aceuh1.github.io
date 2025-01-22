@@ -1,4 +1,4 @@
-body, h1, h2, p, a {
+body, h1, h2, h3, p, a {
     margin: 0;
     padding: 0;
 }
@@ -122,6 +122,20 @@ aside section img{
   object-fit: contain;
   object-position: center;
 }
+aside .second{
+     background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px black;
+    max-height: 450px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+aside .second article h2{
+  text-decoration: none;
+}
+
 article a {
     text-decoration: none;
 
@@ -141,6 +155,22 @@ article h2:hover {
     text-decoration-thickness: 2px;
   
 }
+article h3 {
+    
+    text-decoration: none;
+    transition: text decoration 0.3 ease;
+    padding-bottom: 20px;
+
+}
+
+article h3:hover {
+  
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+  
+}
+
 aside{
  
   
