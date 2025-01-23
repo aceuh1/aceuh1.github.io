@@ -9,8 +9,29 @@ body {
     color: #333;
     background-color: #f5f5f5;
     padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    
 }
-
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+button{
+  float: right;
+  font-size: 0.9rem;
+    color: #0066cc;
+    text-decoration: none;
+    border: 1px solid #0066cc;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    margin 10px ;
+}
+button:hover {
+    background-color: #0066cc;
+    color: white;
+    
+}
 
 header {
 
@@ -20,7 +41,7 @@ header {
             top: 0;
             z-index: 1000;
           
-                 max-width: 1250px; 
+                 max-width: 1210px; 
             margin: 0 auto;
           margin-bottom: 0;
     padding: 10px 0;
@@ -38,8 +59,13 @@ header h1 a {
 header a {
     text-decoration: none;
     color: black;
-  
+    padding: 10px;
+   
 }
+
+
+
+
 .span{
   width: 110%;
   grid-column: span 2;
@@ -107,7 +133,7 @@ nav {
           z-index: 999;
     padding: 10px 0;
     margin: 0px auto;
-    max-width: 1250px;
+    max-width: 1210px;
     margin-bottom: 10px;
     margin-top: 0px;
 }
@@ -179,7 +205,7 @@ aside section img{
     margin-bottom: 0;
     margin-top: 0;
     grid-row: span 2;
-    min-height: 950px;
+    min-height: 958px;
 }
 .second img{
   margin-left: 25px;
