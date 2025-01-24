@@ -264,6 +264,8 @@ aside section h2{
 .second article h2:hover {
   text-decoration: none;
 }
+.second article img{
+ max-width: 88%; }
 article a {
     text-decoration: none;
 
