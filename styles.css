@@ -135,7 +135,7 @@ header a {
 .read{
   float: left;
  text-decoration: none;
- font-size:.7rem;
+ font-size:.9rem;
   text-decoration: none;
     transition: text decoration 0.3 ease;
 }
@@ -148,7 +148,7 @@ header a {
 }
 .sub{
   float: right;
-  font-size: .7rem;
+  font-size: .9rem;
   
 }
 nav {
@@ -228,8 +228,8 @@ aside section{
     
 }
 
-aside section h3, h2, p {
-  color: #444;
+aside section h2{
+  margin-bottom: 0px;
 }
  .second{
      background: white;
