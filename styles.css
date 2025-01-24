@@ -18,11 +18,11 @@ body.dark-mode {
 }
 button{
   float: right;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
     color: black;
     text-decoration: none;
     border: 1px solid black;
-    padding: 5px 10px;
+    
     border-radius: 3px;
     transition: background-color 0.3s, color 0.3s;
     margin-right:  10px ;
@@ -53,7 +53,7 @@ button:hover {
   justify-content: Center; /* Center the button horizontally */
   width: 100%; /* Ensure the container takes up full width */
   margin-top: auto;
-  
+  padding-top: 10px;
  
 }
 header {
@@ -86,7 +86,9 @@ header a {
    
 }
 
-
+.article{
+  
+}
 
 
 .span{
@@ -225,7 +227,8 @@ aside section{
     
     
 }
-aside section h1, p {
+
+aside section h3, h2, p {
   color: #444;
 }
  .second{
@@ -240,16 +243,26 @@ aside section h1, p {
     grid-row: span 2;
     min-height: 958px;
 }
-.second img{
-  margin-left: 25px;
+.article iframe{
+  margin-left: 6px;
   height: auto;
-  max-width: 85%;
+  max-width: 95%;
 }
- .second article h2{
+.article h3 a {
   text-decoration: none;
-  margin: 0px 0px;
+  color: black  ;  
+ 
 }
 
+ .second article h2{
+  text-decoration: none;
+ margin-bottom: 0;
+  padding: 0px 0px ;
+
+}
+.second article h2:hover {
+  text-decoration: none;
+}
 article a {
     text-decoration: none;
 
@@ -257,12 +270,12 @@ article a {
 article h2 {
     
     text-decoration: none;
-    transition: text decoration 0.3 ease;
-    padding-bottom: 20px;
+   
+    padding-bottom: 15px;
 
 }
 
-article h2:hover {
+ article h2:hover {
   
     text-decoration: underline;
     text-decoration-color: black;
