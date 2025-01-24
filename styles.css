@@ -13,26 +13,49 @@ body {
     
 }
 body.dark-mode {
-  background-color: #121212;
+  background-color: #0066dc;
   color: white;
 }
 button{
   float: right;
   font-size: 0.9rem;
-    color: #0066cc;
+    color: black;
     text-decoration: none;
-    border: 1px solid #0066cc;
+    border: 1px solid black;
     padding: 5px 10px;
     border-radius: 3px;
     transition: background-color 0.3s, color 0.3s;
-    margin 10px ;
+    margin-right:  10px ;
 }
 button:hover {
     background-color: #0066cc;
     color: white;
     
 }
+#nextArticleButton {
+  background-color: #007BFF; /* Blue background */
 
+  padding: 6px 12px; /* Smaller button size */
+  font-size: 14px; /* Smaller font size */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  
+}
+
+#nextArticleButton:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+ .button-container {
+  display: flex; /* Flexbox to center content (button) horizontally */
+  justify-content: Center; /* Center the button horizontally */
+  width: 100%; /* Ensure the container takes up full width */
+  margin-top: auto;
+  
+ 
+}
 header {
 
   background: #f5f5f5;
@@ -185,15 +208,25 @@ section {
     margin-top: 0;
 }
 aside section{
- width: 100%;
-  float: right;
-  margin-right: -70px;
+  background: #fefefe;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px black;
+    height: 450px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: -70px;
+    float: right;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
 }
-aside section img{
-  width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  object-position: center;
+aside section h1, p {
+  color: #444;
 }
  .second{
      background: white;
@@ -265,15 +298,7 @@ aside{
     align-items: center;
   
 }
-aside section{
-  background: #f7f7f7;
-  box-shadow: none;
-  width: 250px;
-  height: auto;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
+
 
 img {
     max-width: 100%;  
