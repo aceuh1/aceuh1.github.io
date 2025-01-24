@@ -18,7 +18,7 @@ body.dark-mode {
 }
 button{
   float: right;
-  font-size: 0.6rem;
+  font-size: 0.85rem;
     color: black;
     text-decoration: none;
     border: 1px solid black;
@@ -53,7 +53,7 @@ button:hover {
   justify-content: Center; /* Center the button horizontally */
   width: 100%; /* Ensure the container takes up full width */
   margin-top: auto;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
  
 }
 header {
@@ -166,7 +166,7 @@ nav {
 .nav-list {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 45px;
 }
 
 .nav-list li {
@@ -176,7 +176,7 @@ nav {
 .nav-list li a {
     color: black;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     padding: 5px 5px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -229,7 +229,8 @@ aside section{
 }
 
 aside section h2{
-  margin-bottom: 0px;
+  margin-bottom: 5px;
+    border-bottom: 1px solid black;
 }
  .second{
      background: white;
