@@ -53,7 +53,7 @@ button:hover {
   justify-content: Center; /* Center the button horizontally */
   width: 100%; /* Ensure the container takes up full width */
   margin-top: auto;
-  padding-top: 10px;
+  padding-bottom: 7px;
  
 }
 header {
