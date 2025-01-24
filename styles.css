@@ -53,7 +53,7 @@ button:hover {
   justify-content: Center; 
   width: 100%; 
   margin-top: auto;
-     padding-top: 8pts;
+
  
  
 }
@@ -343,7 +343,12 @@ p.summary {
     margin-bottom: 15px;
     color: #444;
 }
-
+read-more container{
+        display: flex;
+    justify-content: Center;
+    width: 100%;
+    margin-top: auto;
+}
 .read-more {
     font-size: 0.9rem;
     color: #0066cc;
